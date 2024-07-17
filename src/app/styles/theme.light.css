@@ -1,0 +1,26 @@
+ :root {
+     --color-text-primary: rgb(0 0 0 / 87%);
+     --color-text-secondary: rgb(0 0 0 / 60%);
+     --color-text-hint: rgb(0 0 0 / 38%);
+     --color-text-disabled: rgb(0 0 0 / 38%);
+
+     --color-primary: #3A30BA;
+     --color-on-primary: rgb(255 255 255 / 87%);
+
+     --color-secondary: #f480d4;
+     --color-on-primary: rgb(255 255 255 / 87%);
+
+     --color-background: #fff;
+     --color-on-background: var(--color-text-primary);
+     --color-background-inverse:#111111;
+
+     --color-background-variant: #F5F5F7;
+
+     --color-surface: #FFFFFF;
+     --color-on-surface: var(--color-text-primary);
+
+     --color-surface-var: #F9F9F9;
+     --color-on-surface-var: var(--color-text-primary);
+
+     --box-shadow: 0px 32px 43px 0px rgba(40, 35, 74, 0.10);
+ }

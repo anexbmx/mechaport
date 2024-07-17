@@ -1,0 +1,5 @@
+.intro p {
+    max-width: 70ch;
+    margin: auto;
+    text-align: center;
+}

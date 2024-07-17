@@ -1,0 +1,43 @@
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    align-items: center;
+    text-align: center;
+
+}
+
+.hero__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    gap: 20px;
+
+}
+
+.hero__demo {
+    overflow: hidden;
+    padding: 12px;
+
+}
+
+.hero__demo video {
+
+    border-radius: 16px;
+    max-height: 450px;
+}
+
+@media (min-width: 892px) {
+    .hero .container{
+        flex-direction: row;
+        text-align: unset;
+
+    }
+
+    .hero__intro {
+        align-items: flex-start;
+        width: 50%;
+    }
+}

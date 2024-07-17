@@ -1,0 +1,17 @@
+.header {
+    padding: 9px 12px;
+    border-bottom: 1px solid rgb(0 0 0 / 8%);
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    font-size: 18px;
+
+}

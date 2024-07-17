@@ -1,0 +1,36 @@
+.howitworks {
+    background-color: var(--color-background-variant);
+}
+
+.processes {
+    --columns: 1fr;
+    display: grid;
+    grid-template-columns: var(--columns);
+    justify-content: center;
+    gap: 32px;
+    max-width: 816px;
+    margin: auto;
+}
+.process {
+    padding: 40px;
+    text-align: center;
+    width: 360px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-self: center;
+}
+
+@media (min-width: 790px) {
+    .processes {
+        --columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 890px) {
+    .processes {
+        gap: 96px;
+    }
+}
