@@ -2,6 +2,7 @@
     padding: 9px 12px;
     border-bottom: 1px solid rgb(0 0 0 / 8%);
 }
+
 .nav {
     display: flex;
     align-items: center;
@@ -11,12 +12,40 @@
 }
 
 .ul {
-    display: none;
+
+
     gap: 16px;
     font-size: 18px;
-    @media (min-width: 760px) {
-        display: flex;
+    display: flex;
+    transition-property: transform, opacity;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 99;
+
+
+    @media (max-width: 760px) {
+        position: fixed;
+        top: 64px;
+        left: 0;
+        padding: 24px;
+        background: var(--color-background-variant);
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        gap: 24px;
+        flex-direction: column;
+        will-change: transform, opacity;
+        transform: translateX(100%);
+        opacity: 0;
     }
+
+
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .btnNav {

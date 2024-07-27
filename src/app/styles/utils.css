@@ -41,8 +41,13 @@
 .btn--rounded {
     border-radius: 24px;
 }
+
 .btn--primary {
     background-color: var(--color-primary);
+}
+
+.btn-icon {
+    padding: 10px;
 }
 
 .btn:hover {

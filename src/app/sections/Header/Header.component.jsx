@@ -6,13 +6,23 @@ import { useState } from 'react';
 import classNames from 'classnames';
 
 export default function Header() {
-    const [menu, setMenu] = useState(false);
+	const [menu, setMenu] = useState(false);
 
 	return (
 		<header className={styles.header}>
 			<nav className={styles.nav}>
-				<a className='logo' href='#'>MECHAPORT</a>
-				<ul className={styles.ul}>
+				<a
+					className='logo'
+					href='#'
+				>
+					MECHAPORT
+				</a>
+				<ul
+					onClick={() => setMenu(false)}
+					className={classNames(styles.ul, {
+						[styles.show]: menu,
+					})}
+				>
 					<li>
 						<a href='#services'>Dienstleistungen</a>
 					</li>
@@ -23,9 +33,12 @@ export default function Header() {
 						<a href='#contact'>Kontaktieren</a>
 					</li>
 				</ul>
-            <button className={classNames('btn btn-icon', styles.btnNav)} onClick={() => setMenu(!menu) }>
-                {!menu ? <MdMenu size={18} /> : <MdClose size={18} />}
-            </button>
+				<button
+					className={classNames('btn btn-icon', styles.btnNav)}
+					onClick={() => setMenu(!menu)}
+				>
+					{!menu ? <MdMenu size={22} /> : <MdClose size={22} />}
+				</button>
 			</nav>
 		</header>
 	);

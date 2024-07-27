@@ -14,7 +14,7 @@ export default function Footer(props) {
 						MECHAPORT
 					</a>
 					<div>
-						<h2 className='headline-small'>Quick Links</h2>
+						<h2 className='headline-small'>Direktlinks</h2>
 						<ul className='text-secondary body-medium'>
 							<li>
 								<a href='#services'>Dienstleistungen</a>
@@ -28,7 +28,7 @@ export default function Footer(props) {
 						</ul>
 					</div>
 					<div>
-						<h2 className='headline-small'>Location</h2>
+						<h2 className='headline-small'>Standort</h2>
 						<a
 							href='https://www.google.com/maps/search/?api=1&query=3D-Touren+in+D%C3%BCsseldorf,+Musterstra%C3%9Fe+1,+12345+D%C3%BCsseldorf'
 							target='_blank'
@@ -41,10 +41,11 @@ export default function Footer(props) {
 						</a>
 					</div>
 					<div>
-						<h2 className='headline-small'>Send a message</h2>
+						<h2 className='headline-small'>Nachricht schicken</h2>
 						<p className='text-secondary body-medium mb-12'>
-							Use our advanced form to get in touch with us if you
-							need assistance or have questions about my services.
+							Nutzen Sie unser erweitertes Formular, um mit uns
+							Kontakt aufzunehmen, wenn Sie Hilfe benötigen oder
+							Fragen zu meinen Leistungen haben.
 						</p>
 						<a
 							href='#contactForm'
