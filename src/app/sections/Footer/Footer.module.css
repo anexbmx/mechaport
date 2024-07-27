@@ -1,0 +1,36 @@
+/* Styles for Footer component */
+
+.footer {
+
+    background-color: var(--color-background-variant);
+}
+
+.shape {
+    height: 120px;
+    background-color: var(--color-background-variant);
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 16px;
+
+    @media (min-width: 810px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+.container h2 {
+    margin-bottom: 12px;
+}
+
+.container .btn {
+    margin-top: 8px;
+}
+
+.container ul li {
+    margin-bottom: 8px;
+}

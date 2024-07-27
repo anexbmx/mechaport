@@ -21,11 +21,16 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     max-width: 1920px;
     margin: auto;
+
 }
 
 img, picture, video, canvas, svg {
@@ -45,7 +50,10 @@ p, h1, h2, h3, h4, h5, h6 {
     isolation: isolate;
 }
 
-
+ul {
+    padding: 0;
+    list-style: none;
+}
 
 
 a {

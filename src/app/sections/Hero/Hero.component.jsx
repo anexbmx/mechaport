@@ -17,7 +17,7 @@ export default function Hero() {
 						beeindruckend präsentieren.
 					</p>
 					<button
-						className='hero__button btn'
+						className='btn btn--primary shadow'
 						aria-label='Get Started with 3D-Touren'
 					>
 						Get Started

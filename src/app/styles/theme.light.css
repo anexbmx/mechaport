@@ -1,6 +1,7 @@
  :root {
      --color-text-primary: rgb(0 0 0 / 87%);
      --color-text-secondary: rgb(0 0 0 / 60%);
+     --color-text-secondary-reversed: rgb(255 255 255 / 60%);
      --color-text-hint: rgb(0 0 0 / 38%);
      --color-text-disabled: rgb(0 0 0 / 38%);
 

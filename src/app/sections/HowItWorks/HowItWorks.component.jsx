@@ -8,7 +8,7 @@ const Process = ({ item: { id, title, description } }) => {
 		<article className={classNames('card', styles.process)}>
 			<IconNumber number={id} />
 			<h3 className='headline-small'>{title}</h3>
-			<p>{description}</p>
+			<p className='text-secondary'>{description}</p>
 		</article>
 	);
 };
@@ -41,8 +41,10 @@ export default function HowItWorks() {
 	];
 	return (
 		<Section
+        id='howItWorks'
 			className={styles.howitworks}
 			title='So Funktioniert Es ?'
+            shape
 		>
 			<div className={styles.processes}>
 				{steps.map((item) => (

@@ -1,0 +1,9 @@
+.shape {
+    height: 120px;
+    width: 100%;
+    background-color: var(--color-background-variant);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 0%); }
+
+.shape:first-of-type {
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}

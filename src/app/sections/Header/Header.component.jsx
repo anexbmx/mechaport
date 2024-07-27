@@ -7,13 +7,13 @@ export default function Header() {
 				<a className='logo' href='#'>MECHAPORT</a>
 				<ul className={styles.ul}>
 					<li>
-						<a href='#'>Dienstleistungen</a>
+						<a href='#services'>Dienstleistungen</a>
 					</li>
 					<li>
-						<a href='#'>So funktioniert es</a>
+						<a href='#howItWorks'>So funktioniert es</a>
 					</li>
 					<li>
-						<a href='#'>Kontaktieren</a>
+						<a href='#contact'>Kontaktieren</a>
 					</li>
 				</ul>
 			</nav>
