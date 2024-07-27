@@ -30,8 +30,14 @@ export const metadata = {
     type: 'website',
     title: 'Machaport',
     description:  'Erleben Sie Ihre Räume neu mit 3D-Touren in Düsseldorf. Wir bieten modernste 3D-Touren für Restaurants, Immobilien und Ferienwohnungen, um Ihren Kunden ein immersives und interaktives Erlebnis zu bieten',
-    site_name: 'Machaport',
-    url: 'https://mechaport.vercel.app/'
+    siteName: 'Machaport',
+    url: 'https://mechaport.vercel.app/',
+    images: [
+        {
+          url: 'https://nextjs.org/og.png', // Must be an absolute URL
+          width: 800,
+          height: 600,
+        }]
   }
 };
 
