@@ -36,6 +36,7 @@ export default function Header() {
 				<button
 					className={classNames('btn btn-icon', styles.btnNav)}
 					onClick={() => setMenu(!menu)}
+                    aria-label={menu ? 'Close menu' : 'Open menu'}
 				>
 					{!menu ? <MdMenu size={22} /> : <MdClose size={22} />}
 				</button>
