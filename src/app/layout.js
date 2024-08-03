@@ -6,21 +6,13 @@ import "./styles/utils.css";
 
 const roboto = Roboto({
     weight: ['300','400', '500', '700', '900'],
-    style: ['normal', 'italic'],
+    style: ['normal'],
     subsets: ['latin'],
     display: 'swap',
+
   })
 
 
-
-
-//   <!-- Twitter Card -->
-//   <meta name="twitter:card" content="summary" />
-//   <meta name="twitter:site" content="@anas" />
-//   <meta name="twitter:url" content="https://mechaport.vercel.app/" />
-//   <meta name="twitter:title" content="Machaport" />
-//   <meta name="twitter:description" content="Erleben Sie Ihre Räume neu mit 3D-Touren in Düsseldorf. Wir bieten modernste 3D-Touren für Restaurants, Immobilien und Ferienwohnungen, um Ihren Kunden ein immersives und interaktives Erlebnis zu bieten" />
-//   <meta name="twitter:image" content="" />
 
 
 export const metadata = {
