@@ -30,6 +30,7 @@ body {
     -webkit-font-smoothing: antialiased;
     max-width: 1920px;
     margin: auto;
+    font-display: swap;
 
 }
 
