@@ -21,7 +21,15 @@ export default function WhyMachaport(props) {
 			<div className={styles.checklist}>
 				<div className={styles.checklist__imgWrapper}>
                     <div className={styles.checklist__img}>
-                        <Image fill  src="/pro2-mall.jpg" alt="" />
+                    <video
+						loop
+						muted
+						autoPlay
+						src='matterport2.mp4'
+						preload='metadata'
+
+						aria-label='3D-Tour Demo Video'
+					></video>
                     </div>
                 </div>
 				<div className={styles.checklist__details}>

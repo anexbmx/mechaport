@@ -28,9 +28,9 @@ export default function Hero() {
 						loop
 						muted
 						autoPlay
-						src='https://videos.ctfassets.net/icnj41gkyohw/6sb0vVHFI4dO3KytmWDWqg/cdf4c5620537dbe0f34c975cae6f2750/homepage-ai-3.mp4'
+						src='matterport.mp4'
 						preload='metadata'
-						poster='https://framerusercontent.com/images/IFQTCAM43Zbwihpw3imjjxQYDU.png'
+
 						aria-label='3D-Tour Demo Video'
 					></video>
 				</div>
